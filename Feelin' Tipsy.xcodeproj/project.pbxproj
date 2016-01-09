@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE5CA9C1C41758B0016EB11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5CA9B1C41758B0016EB11 /* AppDelegate.swift */; };
+		3AE5CA9E1C41758B0016EB11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5CA9D1C41758B0016EB11 /* ViewController.swift */; };
+		3AE5CAA11C41758B0016EB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5CA9F1C41758B0016EB11 /* Main.storyboard */; };
+		3AE5CAA31C41758B0016EB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5CAA21C41758B0016EB11 /* Assets.xcassets */; };
+		3AE5CAA61C41758B0016EB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5CAA41C41758B0016EB11 /* LaunchScreen.storyboard */; };
+		3AE5CAB11C41758B0016EB11 /* Feelin__TipsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5CAB01C41758B0016EB11 /* Feelin__TipsyTests.swift */; };
+		3AE5CABC1C41758C0016EB11 /* Feelin__TipsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5CABB1C41758C0016EB11 /* Feelin__TipsyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AE5CAAD1C41758B0016EB11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE5CA901C41758B0016EB11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE5CA971C41758B0016EB11;
+			remoteInfo = "Feelin' Tipsy";
+		};
+		3AE5CAB81C41758C0016EB11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE5CA901C41758B0016EB11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE5CA971C41758B0016EB11;
+			remoteInfo = "Feelin' Tipsy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AE5CA981C41758B0016EB11 /* Feelin' Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feelin' Tipsy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE5CA9B1C41758B0016EB11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AE5CA9D1C41758B0016EB11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AE5CAA01C41758B0016EB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AE5CAA21C41758B0016EB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE5CAA51C41758B0016EB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AE5CAA71C41758B0016EB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE5CAAC1C41758B0016EB11 /* Feelin' TipsyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feelin' TipsyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE5CAB01C41758B0016EB11 /* Feelin__TipsyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelin__TipsyTests.swift; sourceTree = "<group>"; };
+		3AE5CAB21C41758B0016EB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE5CAB71C41758C0016EB11 /* Feelin' TipsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feelin' TipsyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE5CABB1C41758C0016EB11 /* Feelin__TipsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelin__TipsyUITests.swift; sourceTree = "<group>"; };
+		3AE5CABD1C41758C0016EB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE5CA951C41758B0016EB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE5CAA91C41758B0016EB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE5CAB41C41758C0016EB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE5CA8F1C41758B0016EB11 = {
+			isa = PBXGroup;
+			children = (
+				3AE5CA9A1C41758B0016EB11 /* Feelin' Tipsy */,
+				3AE5CAAF1C41758B0016EB11 /* Feelin' TipsyTests */,
+				3AE5CABA1C41758C0016EB11 /* Feelin' TipsyUITests */,
+				3AE5CA991C41758B0016EB11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE5CA991C41758B0016EB11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE5CA981C41758B0016EB11 /* Feelin' Tipsy.app */,
+				3AE5CAAC1C41758B0016EB11 /* Feelin' TipsyTests.xctest */,
+				3AE5CAB71C41758C0016EB11 /* Feelin' TipsyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE5CA9A1C41758B0016EB11 /* Feelin' Tipsy */ = {
+			isa = PBXGroup;
+			children = (
+				3AE5CA9B1C41758B0016EB11 /* AppDelegate.swift */,
+				3AE5CA9D1C41758B0016EB11 /* ViewController.swift */,
+				3AE5CA9F1C41758B0016EB11 /* Main.storyboard */,
+				3AE5CAA21C41758B0016EB11 /* Assets.xcassets */,
+				3AE5CAA41C41758B0016EB11 /* LaunchScreen.storyboard */,
+				3AE5CAA71C41758B0016EB11 /* Info.plist */,
+			);
+			path = "Feelin' Tipsy";
+			sourceTree = "<group>";
+		};
+		3AE5CAAF1C41758B0016EB11 /* Feelin' TipsyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE5CAB01C41758B0016EB11 /* Feelin__TipsyTests.swift */,
+				3AE5CAB21C41758B0016EB11 /* Info.plist */,
+			);
+			path = "Feelin' TipsyTests";
+			sourceTree = "<group>";
+		};
+		3AE5CABA1C41758C0016EB11 /* Feelin' TipsyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE5CABB1C41758C0016EB11 /* Feelin__TipsyUITests.swift */,
+				3AE5CABD1C41758C0016EB11 /* Info.plist */,
+			);
+			path = "Feelin' TipsyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE5CA971C41758B0016EB11 /* Feelin' Tipsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE5CAC01C41758C0016EB11 /* Build configuration list for PBXNativeTarget "Feelin' Tipsy" */;
+			buildPhases = (
+				3AE5CA941C41758B0016EB11 /* Sources */,
+				3AE5CA951C41758B0016EB11 /* Frameworks */,
+				3AE5CA961C41758B0016EB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Feelin' Tipsy";
+			productName = "Feelin' Tipsy";
+			productReference = 3AE5CA981C41758B0016EB11 /* Feelin' Tipsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AE5CAAB1C41758B0016EB11 /* Feelin' TipsyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE5CAC31C41758C0016EB11 /* Build configuration list for PBXNativeTarget "Feelin' TipsyTests" */;
+			buildPhases = (
+				3AE5CAA81C41758B0016EB11 /* Sources */,
+				3AE5CAA91C41758B0016EB11 /* Frameworks */,
+				3AE5CAAA1C41758B0016EB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE5CAAE1C41758B0016EB11 /* PBXTargetDependency */,
+			);
+			name = "Feelin' TipsyTests";
+			productName = "Feelin' TipsyTests";
+			productReference = 3AE5CAAC1C41758B0016EB11 /* Feelin' TipsyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AE5CAB61C41758C0016EB11 /* Feelin' TipsyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE5CAC61C41758C0016EB11 /* Build configuration list for PBXNativeTarget "Feelin' TipsyUITests" */;
+			buildPhases = (
+				3AE5CAB31C41758C0016EB11 /* Sources */,
+				3AE5CAB41C41758C0016EB11 /* Frameworks */,
+				3AE5CAB51C41758C0016EB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE5CAB91C41758C0016EB11 /* PBXTargetDependency */,
+			);
+			name = "Feelin' TipsyUITests";
+			productName = "Feelin' TipsyUITests";
+			productReference = 3AE5CAB71C41758C0016EB11 /* Feelin' TipsyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE5CA901C41758B0016EB11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FargoFremling;
+				TargetAttributes = {
+					3AE5CA971C41758B0016EB11 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3AE5CAAB1C41758B0016EB11 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3AE5CA971C41758B0016EB11;
+					};
+					3AE5CAB61C41758C0016EB11 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3AE5CA971C41758B0016EB11;
+					};
+				};
+			};
+			buildConfigurationList = 3AE5CA931C41758B0016EB11 /* Build configuration list for PBXProject "Feelin' Tipsy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AE5CA8F1C41758B0016EB11;
+			productRefGroup = 3AE5CA991C41758B0016EB11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE5CA971C41758B0016EB11 /* Feelin' Tipsy */,
+				3AE5CAAB1C41758B0016EB11 /* Feelin' TipsyTests */,
+				3AE5CAB61C41758C0016EB11 /* Feelin' TipsyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE5CA961C41758B0016EB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE5CAA61C41758B0016EB11 /* LaunchScreen.storyboard in Resources */,
+				3AE5CAA31C41758B0016EB11 /* Assets.xcassets in Resources */,
+				3AE5CAA11C41758B0016EB11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE5CAAA1C41758B0016EB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE5CAB51C41758C0016EB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE5CA941C41758B0016EB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE5CA9E1C41758B0016EB11 /* ViewController.swift in Sources */,
+				3AE5CA9C1C41758B0016EB11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE5CAA81C41758B0016EB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE5CAB11C41758B0016EB11 /* Feelin__TipsyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE5CAB31C41758C0016EB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE5CABC1C41758C0016EB11 /* Feelin__TipsyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AE5CAAE1C41758B0016EB11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE5CA971C41758B0016EB11 /* Feelin' Tipsy */;
+			targetProxy = 3AE5CAAD1C41758B0016EB11 /* PBXContainerItemProxy */;
+		};
+		3AE5CAB91C41758C0016EB11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE5CA971C41758B0016EB11 /* Feelin' Tipsy */;
+			targetProxy = 3AE5CAB81C41758C0016EB11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AE5CA9F1C41758B0016EB11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE5CAA01C41758B0016EB11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AE5CAA41C41758B0016EB11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE5CAA51C41758B0016EB11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE5CABE1C41758C0016EB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AE5CABF1C41758C0016EB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE5CAC11C41758C0016EB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Feelin' Tipsy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fargofremling.Feelin--Tipsy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AE5CAC21C41758C0016EB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Feelin' Tipsy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fargofremling.Feelin--Tipsy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AE5CAC41C41758C0016EB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Feelin' TipsyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fargofremling.Feelin--TipsyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelin' Tipsy.app/Feelin' Tipsy";
+			};
+			name = Debug;
+		};
+		3AE5CAC51C41758C0016EB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Feelin' TipsyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fargofremling.Feelin--TipsyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelin' Tipsy.app/Feelin' Tipsy";
+			};
+			name = Release;
+		};
+		3AE5CAC71C41758C0016EB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Feelin' TipsyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fargofremling.Feelin--TipsyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Feelin' Tipsy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3AE5CAC81C41758C0016EB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Feelin' TipsyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fargofremling.Feelin--TipsyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Feelin' Tipsy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE5CA931C41758B0016EB11 /* Build configuration list for PBXProject "Feelin' Tipsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE5CABE1C41758C0016EB11 /* Debug */,
+				3AE5CABF1C41758C0016EB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE5CAC01C41758C0016EB11 /* Build configuration list for PBXNativeTarget "Feelin' Tipsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE5CAC11C41758C0016EB11 /* Debug */,
+				3AE5CAC21C41758C0016EB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AE5CAC31C41758C0016EB11 /* Build configuration list for PBXNativeTarget "Feelin' TipsyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE5CAC41C41758C0016EB11 /* Debug */,
+				3AE5CAC51C41758C0016EB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AE5CAC61C41758C0016EB11 /* Build configuration list for PBXNativeTarget "Feelin' TipsyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE5CAC71C41758C0016EB11 /* Debug */,
+				3AE5CAC81C41758C0016EB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AE5CA901C41758B0016EB11 /* Project object */;
+}
