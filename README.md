@@ -12,7 +12,7 @@ Required: A user can enter a Bill Amount and see the Tip and Total values based 
 
 Required: A user is presented the decimal keyboard when the Bill Amount text field is activated.
 
-Required: A user can change the Tip Percentage and see Tip and Total updated respectively. (Options include: 15%, 20% and 25%)
+Required: A user can change the Tip Percentage and sees Tip and Total updated respectively. (Options include: 15%, 20% and 25%)
 
 Required: A user can dismiss the keyboard by tapping anywhere on the screen excluding the Bill Amount text field.
 
@@ -37,3 +37,23 @@ Additional: Updated four “var” functions to “let” since these functions 
 Auto Layout issue for iPhone 4s, iPad 2, iPad Air, iPad Air2 and iPad Retina - when the Bill Amount text field is active the keyboard covers part of the Total amount. 
 
 When digits are entered into the Bill Amount text field, it is not formatted in standard two decimal  point currency formatting. 
+
+**Demo GIFs**
+
+*User enters bill amount on the decimal keyboard.*
+
+<img src='Enter%20Bill%20Amount.gif' title='Enter Bill Amount' width='' alt='User enters bill amount.'/>
+
+*User changes the Tip Percentage and sees Tip and Total updated respectively.*
+
+<img src='Change%20Tip%20Percentage.gif' title='Change Tip Percentage' width='' alt='User changes Tip Percentage.'/>
+
+*User dismisses keyboard and app logo as image asset is revealed.*
+
+<img src='Dismiss%20Keyboard.gif' title='Dismiss Keyboard' width='' alt='User dismisses keyboard and app logo is revealed.'/>
+
+*User sees placeholder content in text field and is presented a clear content button when text is entered.*
+
+<img src='Placeholder%20Text%20and%20Clear%20Content.gif' title='Placeholder Text & Clear Content' width='' alt='User sees placeholder content in text field and is presented a clear content button when text is entered.'/>
+
+
