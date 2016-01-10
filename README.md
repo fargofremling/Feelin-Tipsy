@@ -4,7 +4,7 @@ Built by Alicia Fremling
 
 *Feelin’ Tipsy* is a tip calculator application for iOS, it is optimize for use on iPhone 5(s), 6(s) and 6(s) Plus.
 
-Time spent: ## hours
+Time spent: #12 hours
 
 #User Stories
 
@@ -59,3 +59,12 @@ When digits are entered into the Bill Amount text field, it is not formatted in 
 **User goes to homescreen to reveal app icon.**
 
 <img src='App%20Icon.gif' title='App Icon' width='' alt='User goes to homescreen to reveal app icon.'/>
+
+#License
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and limitations under the License.
